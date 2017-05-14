@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-01-04 12:03:37
+ * @version $Id$
+ */
+/* CSS Document */
+
+
+
+
+
+
+/*锁频*/
+#screen{
+  position:absolute;
+  top:0;
+  left:0;
+  background:#aaa;
+  opacity:0;
+  filter:alpha(opacity=0);
+  z-index:9998;
+  display:none;
+}
+
+
+/*注册表单*/
+#reg .comWidth{
+    width:640px;
+    font-family:"微软雅黑";
+    color:#666;
+
+}
+#reg .logo{
+    padding-left:90px;
+}
+#reg h3{
+    display:inline-block;
+    font-size:22px;
+    line-height:85px;
+    color:#D8D8D8;
+    margin-left:30px;
+    font-weight:normal;
+}
+#reg .reg{
+    width:610px;
+    height:600px;
+    border:1px solid #d3d3d3;
+    margin-top:15px;
+    padding:30px 0 0 30px;
+}
+.reg li{
+    margin-bottom:15px;
+    position:relative;
+}
+.reg input{
+    height:28px;
+    border:1px solid #d3d3d3;
+    width:200px;
+    font-size:16px;
+    color:#666;
+    padding-left:5px;
+    font-family:"微软雅黑";
+    line-height: 28px;
+}
+.reg select{
+    height:30px;
+    border:1px solid #d3d3d3;
+    width:208px;
+    font-size:16px;
+    color:#666;
+    padding-left:5px;
+    font-family:"微软雅黑";
+}
+.reg label{
+    display:inline-block;
+    font-size:16px;
+    color:#666;
+    width:80px;
+    height:30px;
+    line-height:30px;
+}
+.reg option{
+    font-size:16px;
+    color:#666;
+
+}
+#year,#month,#date{
+    width:65px;
+
+}
+.reg textarea{
+    width:320px;
+    height:100px;
+    border:1px solid #d3d3d3;
+}
+.ps p{
+    position:absolute;
+    top:112px;
+    left:270px;
+    font-size:14px;
+}
+#agreement{
+    width:14px;
+    margin-left:120px;
+    vertical-align:bottom;
+    margin-top:20px;
+}
+#sub{
+    height:40px;
+    width:270px;
+    background:#1D7AD9;
+    color:#fff;
+    letter-spacing:20px;
+    margin:20px 0 0 90px;
+    text-align:center;
+    line-height:40px;
+    padding-left:20px;
+    cursor:pointer;
+}
+.info{
+    padding:8px 0 0 30px;
+    display:block;
+    position:absolute;
+    left:310px;
+    top:-2px;
+    width:170px;
+    height:24px;
+    display:none;
+}
+.info_mess{
+     background:url(images/reg_info.png) no-repeat;
+}
+.info_error{
+    background:url(images/reg_error.png) no-repeat;
+    
+}
+.info_succ{
+    background:url(images/reg_succ.png) no-repeat;
+    height:14px;
+    line-height:14px;
+    padding:0 0 0 16px;
+    top:6px;
+}
+.user .info_mess{
+    background:url(images/reg_info2.png) no-repeat;
+    width:170px;
+    height:42px;
+}
+.user .yanzheng{
+    background: url(images/loading2.gif) no-repeat left center;
+    padding-left:20px;
+}
+.pass .info_mess{
+    background:url(images/reg_info3.png) no-repeat;;
+    height:106px;
+    width:260px;
+    padding-left:10px;
+    top:-40px;
+    z-index:-1;
+}
+.pass .info_mess p{
+    line-height:20px;
+}
+.pass .info_mess p strong{
+    color:#999;
+    font-size:16px;
+}
+.all_email{
+    position:absolute;
+    top:30px;
+    left:84px;
+    width:205px;
+    background:white;
+    z-index:5;
+    border:1px solid #ddd;
+    border-top:none;
+    display:none;
+}
+.all_email li{
+    margin:2px 0;
+    padding:6px 0 6px 10px;
+    cursor:pointer;
+}
+#subing{
+    height:40px;
+    width:200px;
+    background: url(images/login_header.png);
+    line-height:40px;
+    text-indent: 50px;
+    position:absolute;
+    z-index:2;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: none;
+}
+#subing p{
+    background: url(images/loading3.gif) no-repeat 90px center;
+    font-family: "微软雅黑";
+    color:#333;
+}
+#success{
+    height:40px;
+    width:200px;
+    background: url(images/login_header.png);
+    line-height:40px;
+    text-indent: 85px;
+    position:absolute;
+    z-index:2;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: none;
+}
+#success h3{
+    background: url(images/success.gif) no-repeat 60px center;
+    font-family: "微软雅黑";
+    color:#333;
+
+}
+

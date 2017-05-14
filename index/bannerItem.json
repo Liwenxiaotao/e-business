@@ -1,0 +1,51 @@
+
+{
+  "item1":{
+    "bannerListTop":[["shopImg_01.jpg","Apple iPhone 7 Plus","￥7188.00"],
+                     ["shopImg_02.jpg","小米 红米Note4","￥1049.00"],
+                     ["shopImg_03.jpg","荣耀 畅玩6X","￥1299.00"],
+                     ["shopImg_04.jpg","OPPO R9s","￥2799.00"]
+    ] ,
+    "bannerListBottom":[["shopImg_sm_01.jpg","雷诺塔i5 6500/GTX1050T","￥3599.00"],
+                        ["shopImg_sm_02.jpg","明基（BenQ）i720JD 家用 全高清 投影机（DLP芯片 2200ANSI","￥2599.00"],
+                        ["shopImg_sm_03.jpg","外星人(Alienware)Aurora","￥11999.00"],
+                        ["shopImg_sm_04.jpg","宏碁(acer)暗影骑士3 VX5","￥5999.00"]
+    ]  
+  },
+  "item2":{
+    "bannerListTop":[["shopImg_05.jpg","格力(GREE)锐逸变频立式冷暖空调柜机","￥9898.00"],
+                     ["shopImg_06.jpg","迷你宝贝（minibaby）3公斤煮洗杀菌迷你儿童宝宝婴儿衣","￥9998.00"],
+                     ["shopImg_07.jpg","林内16升智能精控恒温 CO安防 燃气热水器","￥3499.00"],
+                     ["shopImg_08.jpg","SAST/先科高清点歌机家庭ktv音响套装卡拉OK家用音响音","￥3599.00"]
+    ] ,
+    "bannerListBottom":[["shopImg_sm_05.jpg","小米（MI）L55M5-AA 55英寸 小米电视3","￥3899.00"],
+                        ["shopImg_sm_06.jpg","索尼（SONY)BDV-N9200W 音响 音箱","￥6188.00"],
+                        ["shopImg_sm_07.jpg","马兰士（MARANTZ）M-CR611 音响 HiFi","￥4579.00"],
+                        ["shopImg_sm_08.jpg","先科（SAST）32B 便携式移动DVD播放","￥369.00"]
+    ]  
+  },
+   "item3":{
+    "bannerListTop":[["shopImg_09.jpg","EraClean TOWER空气净化器 家用除甲醛雾霾PM2.5 KJ500F-T01","￥4999.00"],
+                     ["shopImg_10.jpg","美国艾罗伯特（iRobot）智能拖地擦地机器人 Braava381","￥2299.00"],
+                     ["shopImg_11.jpg","飞利浦(PHILIPS)家用净水器 无废水保留矿物质净水机 WP4160/00","￥1299.00"],
+                     ["shopImg_12.jpg","飞利浦蒸汽挂烫-- 风能动力吸烫科技","￥1299.00"]
+    ] ,
+    "bannerListBottom":[["shopImg_sm_09.jpg","美的（Midea）豆浆机 多功能内外全钢双层保温X12Q22","￥6999.00"],
+                        ["shopImg_sm_10.jpg","美的（Midea）电饭煲PFZ3503 多段IH电磁加热 真空鼎釜内胆 双重调压 wifi操控","￥6999.00"],
+                        ["shopImg_sm_11.jpg","美的（Midea）原汁机 多功能果汁机 慢速榨汁机家用榨汁机WJS1221F","￥499.00"],
+                        ["shopImg_sm_12.jpg","意大利德龙（Delonghi) ESAM2200.S 全自动咖啡机","￥5599.00"]
+    ]  
+  },
+   "item4":{
+    "bannerListTop":[["shopImg_13.jpg","西班牙DO级红酒 宜兰树油画系列干红葡萄酒套装750ML*6瓶","￥2000.00"],
+                     ["shopImg_14.jpg","澳大利亚 进口牛奶 德运","￥109.00"],
+                     ["shopImg_15.jpg","百草味 年货坚果零食果仁","￥46.90"],
+                     ["shopImg_16.jpg","麦斯威尔原味速溶咖啡60条","￥54.90"]
+    ] ,
+    "bannerListBottom":[["shopImg_sm_13.jpg","德国进口Knoppers牛奶榛","￥32.90"],
+                        ["shopImg_sm_14.jpg","大益 茶叶 普洱茶 熟茶 醇品","￥128.00"],
+                        ["shopImg_sm_15.jpg","希菲家庭牛排套餐10片腌制牛肉1500g菲","￥126.00"],
+                        ["shopImg_sm_16.jpg","俏苏阁 阳澄湖大闸蟹现货实物 928型","￥328.00"]
+    ]  
+  }
+}
