@@ -330,7 +330,7 @@ $("#sub").bind("click",function(){
       type:"GET",
       dataType:"json",
       success:function(data,status,xhr){
-        alert(data)
+     
         var flag=true;
         //alert(data)
         //data=eval(text)

@@ -58,7 +58,7 @@ function checkUser(_this){
        $(".user .info_mess").css("display","none");
        $(".user .yanzheng").css("display","block");
        $.ajax({
-        url:"/user.json",
+        url:"/e-business/register/user.json",
         type:"get",
         async:false,
         dataType:"json",
