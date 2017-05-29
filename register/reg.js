@@ -58,11 +58,12 @@ function checkUser(_this){
        $(".user .info_mess").css("display","none");
        $(".user .yanzheng").css("display","block");
        $.ajax({
-        url:"user.php",
-        type:"POST",
+        url:"/user.json",
+        type:"get",
         async:false,
         dataType:"json",
         success:function(data){
+         
           for(var i=0;i<data.length;i++){
            if(data[i].user==trim(_this.val())){
             $(".user .info_error").html("用户名已被注册");

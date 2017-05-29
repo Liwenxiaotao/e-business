@@ -37,7 +37,7 @@ a{text-decoration:none; color:#666666;}
     line-height: 31px
 }
 .collection{
-    background: url(../index/images/icon/collection.jpg) left center no-repeat;
+    background: url(../images/icon/collection.jpg) left center no-repeat;
     padding-left:19px;
     font-weight:bold;
     margin-right:20px;
@@ -234,6 +234,9 @@ a{text-decoration:none; color:#666666;}
 #screen{
   position:absolute;
   left:0;
+  right:0;
+  top:0;
+  bottom:0;
   background:#aaa;
   opacity:0;
   filter:alpha(opacity=0);

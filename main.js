@@ -28,6 +28,7 @@ $(function(){
       url:"bannerItem.json",
       dataType:"json",
       success:function(responseText,status,xhr){
+      
        $.each(responseText,function(index1,value1){ 
           var html=""   
           $.each(value1,function(index2,value2){     
@@ -259,7 +260,7 @@ $("#toolBar li").bind("mouseout",function(){
 $("#toolBar li").on("click",function(){
   if(getCookie("user")){
     $.ajax({
-      url:"userInfo.php",
+      url:"userInfo.json",
       dataType:"json",
       type:"GET",
       success:function(reponseText,status,xhr){
@@ -325,11 +326,11 @@ $("#sub").bind("click",function(){
   $(_this).attr("disabled",true).css("background","#999")
   if(/^[\w_]{4,20}$/.test(user) && pass.length>=6 && pass.length<=20){
     $.ajax({
-      url:"login.php",
-      type:"POST",
-      async:false,
+      url:"login.json",
+      type:"GET",
       dataType:"json",
-      success:function(data){
+      success:function(data,status,xhr){
+        alert(data)
         var flag=true;
         //alert(data)
         //data=eval(text)
@@ -492,7 +493,7 @@ function showTime(){
  function leftT(){
 
             var nowdate=new Date();
-            var enddate=new Date("2017/4/3,00:00:00");
+            var enddate=new Date("2017/10/01,00:00:00");
             var leftDate=parseInt((enddate.getTime()-nowdate.getTime())/1000);
             var D=change(parseInt(leftDate/(60*60*24))),
                 H=change(parseInt(leftDate/(60*60))%24),
